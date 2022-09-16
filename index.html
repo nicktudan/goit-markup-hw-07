@@ -15,22 +15,22 @@
 <body>
 
     <!-- Шапка сайту -->
-    <header>
-        <div class="container header-container">
+    <header class="header">
+        <div class="container header__container">
             <nav class="main-nav">
-                <a href="./index.html" lang="en" class="logo">Web<span class="logo-dark">Studio</span></a>
+                <a href="./index.html" lang="en" class="logo">Web<span class="logo logo_dark">Studio</span></a>
 
                 <ul class="site-nav list">
-                    <li class="site-nav-item"><a href="#" class="link current">Студія</a></li>
-                    <li class="site-nav-item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                    <li class="site-nav-item"><a href="#" class="link">Контакти</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link site-nav__link_current">Студія</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Контакти</a></li>
                 </ul>
             </nav>
 
                 <ul class="contacts list">
 
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="contacts-list-link contacts-link link">
+                    <li class="contacts__item">
+                        <a href="mailto:info@devstudio.com" class="contacts__link contacts__link_right">
                             <svg class="mail-icon" lang="en" aria-label="mail icon" width="16px" height="12px">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
@@ -38,15 +38,14 @@
                         </a>
                     </li>
 
-                    <li>
-                        <a href="tel:+380961111111" class="contacts-list-link link">
+                    <li class="contacts__item">
+                        <a href="tel:+380961111111" class="contacts__link">
                             <svg class="smartphone-icon" lang="en" aria-label="smartphone icon" width="10px" height="16px">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>
                         +38 096 111 11 11
                         </a>
                     </li>
-
 
                 </ul>
         </div>
@@ -415,60 +414,60 @@
     </main>
 
     <!-- Підвал -->
-    <footer class="page-footer">
-        <div class="container footer-container">
-            <div class="address-card-thumb">
-                <a href="./index.html" lang="en" class="logo">Web<span class="logo-light">Studio</span></a>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="address__card-thumb">
+                <a href="./index.html" lang="en" class="logo">Web<span class="logo logo_light">Studio</span></a>
 
             <address class="address">
                 
-                    <ul class="address-list list">
+                    <ul class="address__list list">
 
-                        <li class="address-item item">
-                            <a href="https://goo.gl/maps/PtDdcps2GoqeUwa47" target="_blank" rel="noopener noreferrer nofollow" class="link">м. Київ, пр-т Лесі Українки, 26</a>
+                        <li class="address__item">
+                            <a href="https://goo.gl/maps/PtDdcps2GoqeUwa47" target="_blank" rel="noopener noreferrer nofollow" class="address__link address__link_light">м. Київ, пр-т Лесі Українки, 26</a>
                         </li>
 
-                        <li class="address-item">
-                            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                        <li class="address__item">
+                            <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
                         </li>
 
-                        <li class="address-item">
-                            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                        <li class="address__item">
+                            <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
                         </li>
 
                     </ul>
             </address>
             </div>
 
-            <div class="footer-social-card-thumb">
-                <p class="footer-text">приєднуйтесь</p>
-                <ul class="footer-social-list list">
-                    <li class="footer-social-list-item">
-                        <a href="#" class="footer-social-list-link">
-                            <svg  class="footer-social-list-icon" lang="en" aria-label="instagram icon">
+            <div class="footer__social-card-thumb">
+                <p class="footer__text">приєднуйтесь</p>
+                <ul class="footer__social-list list">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <svg  class="footer__social-icon" lang="en" aria-label="instagram icon">
                                 <use href="./images/icons.svg#icon-instagramfooter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-list-item">
-                        <a href="#" class="footer-social-list-link">
-                            <svg  class="footer-social-list-icon" lang="en" aria-label="twitter icon">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <svg  class="footer__social-icon" lang="en" aria-label="twitter icon">
                                 <use href="./images/icons.svg#icon-twitterfooter"></use>
                             </svg>
                         </a>
                     </li>
                     
-                    <li class="footer-social-list-item">
-                        <a href="#" class="footer-social-list-link">
-                            <svg  class="footer-social-list-icon" lang="en" aria-label="facebook icon">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <svg  class="footer__social-icon" lang="en" aria-label="facebook icon">
                                 <use href="./images/icons.svg#icon-facebookfooter"></use>
                             </svg>
                         </a>
                     </li>
                     
-                    <li class="footer-social-list-item">
-                        <a href="#" class="footer-social-list-link">
-                            <svg  class="footer-social-list-icon" lang="en" aria-label="linkedin icon">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <svg  class="footer__social-icon" lang="en" aria-label="linkedin icon">
                                 <use href="./images/icons.svg#icon-linkedinfooter"></use>
                             </svg>
                         </a>
@@ -476,12 +475,10 @@
                 </ul>
             </div>
 
-            <div class="footer-subscription-card-thumb">
-                <p class="footer-text">Підпишіться на розсилку</p>
+            <div class="footer__subscription-card-thumb">
+                <p class="footer__text">Підпишіться на розсилку</p>
                 <form class="footer-form">
-                    <label class="footer-form-label">
-                        <input class="footer-form-input" type="email" name="email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-                    </label>
+                    <input class="footer-form__input" type="email" name="email" placeholder="E-mail" required>
                     <button type="submit" class="footer-btn">Підписатися
                         <svg class="send-icon" lang="en" aria-label="send icon" width="16px" height="12px">
                             <use href="./images/icons.svg#icon-send"></use>
