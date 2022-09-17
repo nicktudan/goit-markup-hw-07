@@ -22,8 +22,7 @@
 
 .team__title,
 .team__post {
-    font-size: 16px;
-    line-height: 1.19;
+    @include font ($fs: 16px, $lh: 1.19);
     text-align: center;
 }
 

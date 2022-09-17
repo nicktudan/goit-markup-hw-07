@@ -25,18 +25,13 @@
     height: 70px;
 }
 
-.feature__title,
-.about-feature {
-    font-size: 14px;
-}
-
 .feature__title {
     margin-top: 30px;
-    line-height: 1.14;
+    @include font ($lh: 1.14);
 }
 
 .about-feature {
     margin-top: 10px;
-    line-height: 1.71;
+    @include font ();
     color: var(--secondary-text-color);
 }

@@ -18,14 +18,14 @@
     margin-left: auto;
 
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font ($fs: 44px, $lh: 1.36);
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
 }
 
 .service__btn {
+    @extend %button;
     margin-top: 30px;
     padding: 10px 32px;
     transition: background-color var(--transition-dur-tf);
